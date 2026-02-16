@@ -2,15 +2,18 @@
 A desktop management suite for small bakeries built with **Python** and **CustomTkinter**.
 
 ## ✨ Key Features
-- **💰 Smart Sales Tracking**: Records daily transactions and calculates totals.
-- **🍳 Auto-Recipe Deduction**: Automatically reduces ingredient stock (flour, sugar, etc.) based on custom recipes when a product is sold.
-- **🚨 Low Stock Alerts**: Visual warnings when ingredients drop below critical levels.
-- **🖨️ Financial Reports**: Generates UTF-8 encoded text reports with Revenue, Expenses, and Net Profit.
+✨ Key Features
+📊 Dynamic Dashboard: Real-time tracking of Today's Sales, Monthly Revenue, Expenses, and Net Profit.
 
-## 🛠️ Tech Stack
-- **Language:** Python 3.x
-- **UI Library:** CustomTkinter (Modern Dark/Light mode support)
-- **Data Handling:** Pandas (CSV-based database)
+📅 Pre-Order System: Log customer reservations with pickup dates directly into the ledger.
+
+🍳 Recipe Linker: Automatically deducts raw materials (flour, sugar, eggs) when a finished product is sold.
+
+📜 Official Ledger: Generates professional .txt monthly reports in the required format: Date | Item | Qty | Total.
+
+💹 Costing Analysis: Export detailed profit margin reports to see which bakes are "Healthy" or "Low Margin."
+
+🛡️ Auto-Backup: Creates timestamped backups of all CSV databases every time the app starts.
 
 ## 🚀 How to Run
 1. Install requirements: `pip install customtkinter pandas`
