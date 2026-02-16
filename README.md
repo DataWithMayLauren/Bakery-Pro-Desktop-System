@@ -1,7 +1,7 @@
 # 🥖 Bakery Pro: Smart Inventory & Sales System
-A desktop management suite for small bakeries built with **Python** and **CustomTkinter**.
 
-## ✨ Key Features
+An advanced, stable Point of Sale (POS) and Inventory Management System built specifically for artisan bakeries. This system features real-time ledger tracking, ingredient-to-product recipe linking, and automated financial reporting.
+
 ✨ Key Features
 📊 Dynamic Dashboard: Real-time tracking of Today's Sales, Monthly Revenue, Expenses, and Net Profit.
 
@@ -15,6 +15,41 @@ A desktop management suite for small bakeries built with **Python** and **Custom
 
 🛡️ Auto-Backup: Creates timestamped backups of all CSV databases every time the app starts.
 
-## 🚀 How to Run
-1. Install requirements: `pip install customtkinter pandas`
-2. Run the app: `python main.py`
+🚀 Getting Started
+Prerequisites
+Python 3.10+
+
+Dependencies: Install required libraries via terminal:
+
+Bash
+pip install customtkinter pandas pillow
+Installation
+Clone this repository or download the ZIP.
+
+Ensure your logo.png is in the same folder as the script.
+
+Run the application:
+
+Bash
+python bakery_system.py
+📂 File Structure
+bakery_inventory.csv: Finished products and pricing.
+
+ingredients.csv: Raw materials and admin expenses.
+
+sales_records.csv: Historical sales data.
+
+pre_orders.csv: Customer reservations.
+
+recipes.json: Links ingredients to products.
+
+/backups/: Auto-generated safety copies of your data.
+
+🛠️ Tech Stack
+Frontend: CustomTkinter (Modern UI/UX)
+
+Backend: Python 3.12
+
+Database: CSV & JSON (Lightweight & Portable)
+
+Data Processing: Pandas
